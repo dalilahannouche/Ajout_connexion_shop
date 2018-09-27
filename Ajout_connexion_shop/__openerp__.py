@@ -18,4 +18,6 @@ Connexion à la page boutique. Inscription avec fenêtre Popup.
 	'images': ['static/description/logo.png'],
     	'installable': True,
     	'application': True,
+	'price': 10.00,
+	'currency': 'EUR'
 }

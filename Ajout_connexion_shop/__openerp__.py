@@ -1,11 +1,11 @@
 {
-    'name': 'Ajout inscription/connexion dans la page Boutique',
+    'name': 'Add login / Signup Popup in Shop page',
     'category': 'Website',
-    'summary': 'Permettre inscription/connexion au client',
+    'summary': 'The user can register and login in Shop page',
     'website': 'https://www.kissa.dz',
     'version': '1.0',
     'description': """
-Connexion à la page boutique. Inscription avec fenêtre Popup.
+The user can register and login in Shop page.
 ======================
         """,
     	'author'	: 'Dalila Hannouche',

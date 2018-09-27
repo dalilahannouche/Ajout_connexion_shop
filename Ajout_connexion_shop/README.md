@@ -1,1 +1,1 @@
-Ce module ajout un widget à la page Boutique. Il permet la connexion, et l'inscription avec une fenêtre popup.
+This apps adds a popup signup and login in the page of Odoo Shop.

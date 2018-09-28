@@ -15,7 +15,7 @@ The user can register and login in Shop page.
     		],
     	'qweb'	: ['static/src/xml/*.xml'],
 
-	'images': ['static/description/icon.png'],
+	'images': ['static/description/banner.png'],
     	'installable': True,
     	'application': True,
 	'price': 10.00,

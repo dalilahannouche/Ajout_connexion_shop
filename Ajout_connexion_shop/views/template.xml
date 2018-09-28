@@ -34,7 +34,7 @@ color: #595959;">Already customer? Login !</h3>
                         <input id="password" name="password" type="password" class="form-control" required="required" t-att-autofocus="'autofocus' if login else None" placeholder="password" style="margin-top: 8px;"/>
                       </div>
                       <a href="/web/reset_password" class="forgot-password">Forgot your password? </a><br/>
-			<p> Pas de compte? <a href="#" id="bouton_inscription" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat" style="font-size: 15px;font-weight: bold;"> Sign up! </a></p>
+			<p> No account? <a href="#" id="bouton_inscription" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat" style="font-size: 15px;font-weight: bold;"> Sign up! </a></p>
                     </div>
                     <p class="alert alert-danger" t-if="error">
                       <t t-esc="error"/>

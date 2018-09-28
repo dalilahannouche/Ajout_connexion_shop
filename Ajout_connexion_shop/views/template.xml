@@ -47,7 +47,7 @@ color: #595959;">Already customer? Login !</h3>
                       <div class="clearfix oe_login_buttons">
 			<div class="pull-right" style="margin-bottom:15px;">
 			</div>
-                        <button type="submit" class="btn btn-primary btn-block" style="margin-top: 6px;margin-bottom:15px;background: linear-gradient(to right, #d4145a, #ff7bac) !important;background: -webkit-linear-gradient(to right, #d4145a, #ff7bac) !important;background: -moz-linear-gradient(to right, #d4145a, #ff7bac) !important;">Connectez-vous</button>
+                        <button type="submit" class="btn btn-primary btn-block" style="margin-top: 6px;margin-bottom:15px;background: linear-gradient(to right, #d4145a, #ff7bac) !important;background: -webkit-linear-gradient(to right, #d4145a, #ff7bac) !important;background: -moz-linear-gradient(to right, #d4145a, #ff7bac) !important;">Login </button>
                       </div>
                     </div>
                   </form>

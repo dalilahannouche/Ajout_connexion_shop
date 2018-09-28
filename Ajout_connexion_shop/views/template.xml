@@ -18,23 +18,23 @@
 	
 		<div id="inscription" style="margin-left:80%;margin-top: -21px;">		
 	                                       <h3 style="margin-left:15px;font-weight: bold;
-color: #595959;">Déja Client? Connectez-vous</h3>
+color: #595959;">Already customer? Login !</h3>
                 <br/> 
                 <!--<div class="row">-->
                   <form role="form" t-attf-action="/sale_login{{ '?debug' if debug else '' }}" method="post" onsubmit="this.action = this.action + location.hash" style="margin-top: -30px;">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <div class="form-group">
                         <label class="control-label required" for="login">Email<sup style="color:red">*</sup></label>
-                        <input id="login" name="login" t-att-value="login" required="required" autofocus="autofocus" type="text" class="form-control" placeholder="Addresse Email" style="margin-top: 8px;"/>
+                        <input id="login" name="login" t-att-value="login" required="required" autofocus="autofocus" type="text" class="form-control" placeholder="E-mail adress" style="margin-top: 8px;"/>
                       </div>
                     </div>            
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                       <div class="form-group">
-                        <label class="control-label required" for="password">Mot de passe<sup style="color:red">*</sup></label>
+                        <label class="control-label required" for="password">Password<sup style="color:red">*</sup></label>
                         <input id="password" name="password" type="password" class="form-control" required="required" t-att-autofocus="'autofocus' if login else None" placeholder="password" style="margin-top: 8px;"/>
                       </div>
-                      <a href="/web/reset_password" class="forgot-password">Mot de Passe oublié?</a><br/>
-			<p> Pas de compte? <a href="#" id="bouton_inscription" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat" style="font-size: 15px;font-weight: bold;"> Inscrivez-vous! </a></p>
+                      <a href="/web/reset_password" class="forgot-password">Forgot your password? </a><br/>
+			<p> Pas de compte? <a href="#" id="bouton_inscription" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat" style="font-size: 15px;font-weight: bold;"> Sign up! </a></p>
                     </div>
                     <p class="alert alert-danger" t-if="error">
                       <t t-esc="error"/>
@@ -71,7 +71,7 @@ color: #595959;">Déja Client? Connectez-vous</h3>
 					<a href="#" id="register-form-link" style="color: #fff;text-shadow: 0.07em 0.09em 0 rgba(0, 0, 0, 0.1);">Facile l'inscription chez Kissa !</a>
                                 <button type="button" class="close" data-dismiss="modal">×</button>
 <p style="margin-top: 21px;
-color: #fff;">Remplissez les champs ci-dessous et commencez vos achats. Kissa livrera votre commande à domicile, chez vous!</p>
+color: #fff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum lectus nisl, vel scelerisque lorem tempus in.</p>
 				</div>
 			</div>
     	</div>
@@ -82,17 +82,17 @@ color: #fff;">Remplissez les champs ci-dessous et commencez vos achats. Kissa li
 		        	<div class="col-md-4 col-md-offset-1">
 						<form id="register-form" t-attf-action="/sale_login{{ '?debug' if debug else '' }}" method="post" role="form" t-if="not message">
 			    			<div class="form-group">
-								<input id="login" name="login" type="text" t-att-value="login" required="required" t-att-readonly="'readonly' if only_passwords else None" class="form-control" autofocus="autofocus" placeholder="Votre E-mail"/>
+								<input id="login" name="login" type="text" t-att-value="login" required="required" t-att-readonly="'readonly' if only_passwords else None" class="form-control" autofocus="autofocus" placeholder="Your E-mail"/>
 							</div>
     						<div class="form-group">
 								<input id="name" name="name" type="text" class="form-control" t-att-value="name" required="required" t-att-readonly="'readonly' if only_passwords else None"
-                               t-att-autofocus="'autofocus' if login and not only_passwords else None" autofocus="autofocus" placeholder="Votre nom et prénom"/>
+                               t-att-autofocus="'autofocus' if login and not only_passwords else None" autofocus="autofocus" placeholder="Your name and first name"/>
 							</div>
 							<div class="form-group">
-								<input id="password" name="password" type="password" class="form-control" required="required" t-att-autofocus="'autofocus' if only_passwords else None" autofocus="autofocus" placeholder="Mot de passe"/>
+								<input id="password" name="password" type="password" class="form-control" required="required" t-att-autofocus="'autofocus' if only_passwords else None" autofocus="autofocus" placeholder="Password"/>
 							</div>
 							<div class="form-group">
-								<input id="confirm_password" required="required" name="confirm_password" type="password" class="form-control" autofocus="autofocus" placeholder="Confirmez votre mot de passe"/>
+								<input id="confirm_password" required="required" name="confirm_password" type="password" class="form-control" autofocus="autofocus" placeholder="Confirm your password"/>
 							</div>
  <t t-set="only_passwords" t-value="bool(token)"/>
                     <p class="alert alert-danger" t-if="error_1">
@@ -103,7 +103,7 @@ color: #fff;">Remplissez les champs ci-dessous et commencez vos achats. Kissa li
 							<div class="form-group">
 								<div class="row">
 									<div class="col-md-10 col-md-offset-1">
-    									  <button type="submit" class="btn btn-primary pull-left" style="width:100%;background-color:#0dafef;margin-top: 20px;font-weight:bold;">C'est parti !</button>
+    									  <button type="submit" class="btn btn-primary pull-left" style="width:100%;background-color:#0dafef;margin-top: 20px;font-weight:bold;">Let's go ! </button>
 									</div>
 								</div>
 							</div>

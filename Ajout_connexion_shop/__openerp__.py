@@ -1,5 +1,5 @@
 {
-    'name': 'Add login / Signup Popup in Shop page',
+    'name': 'Login / Signup Popup in Shop page',
     'category': 'Website',
     'summary': 'The user can register and login in Shop page',
     'website': 'https://www.kissa.dz',
@@ -18,6 +18,6 @@ The user can register and login in Shop page.
 	'images': ['static/description/icon.png'],
     	'installable': True,
     	'application': True,
-	'price': 15.00,
+	'price': 10.00,
 	'currency': 'EUR'
 }

@@ -18,6 +18,6 @@ The user can register and login in Shop page.
 	'images': ['static/description/logo.png'],
     	'installable': True,
     	'application': True,
-	'price': 10.00,
+	'price': 15.00,
 	'currency': 'EUR'
 }

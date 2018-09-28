@@ -68,7 +68,7 @@ color: #595959;">Already customer? Login !</h3>
 	animation: Gradient 15s ease infinite;">
 	    	<div class="row">
 				<div class="col-xs-12">
-					<a href="#" id="register-form-link" style="color: #fff;text-shadow: 0.07em 0.09em 0 rgba(0, 0, 0, 0.1);">Facile l'inscription chez Kissa !</a>
+					<a href="#" id="register-form-link" style="color: #fff;text-shadow: 0.07em 0.09em 0 rgba(0, 0, 0, 0.1);">Easy registration with us !</a>
                                 <button type="button" class="close" data-dismiss="modal">×</button>
 <p style="margin-top: 21px;
 color: #fff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum lectus nisl, vel scelerisque lorem tempus in.</p>

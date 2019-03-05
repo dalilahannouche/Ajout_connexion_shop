@@ -18,6 +18,4 @@ The user can register and login in Shop page.
 	'images': ['static/description/banner.png'],
     	'installable': True,
     	'application': True,
-	'price': 10.00,
-	'currency': 'EUR'
 }
